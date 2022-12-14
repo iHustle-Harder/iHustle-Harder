@@ -1,0 +1,14 @@
+{
+  "title": "Server API Java",
+  "x-stoplight": {
+    "id": "ghp21s7qa82e4"
+  },
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  },
+  "x-internal": true,
+  "description": "node.js react.js vue.js"
+}
