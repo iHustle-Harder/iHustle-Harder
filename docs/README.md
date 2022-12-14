@@ -1,4 +1,24 @@
 ---
+internal: true
+---
+
+```json jsonSchema
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  }
+}
+```
+
+````json http
+{
+  "method": "get",
+  "url": "https://todos.stoplight.io/todos"
+}
+```---
 stoplight-id: 9kk6mj37p6dz5
 ---
 
@@ -72,3 +92,4 @@ This section has moved here: <https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: <https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify>
+````
