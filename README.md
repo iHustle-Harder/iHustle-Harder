@@ -3,53 +3,27 @@ ___________________________
 --->
 "Node_modules"
 
-***** Txt File of Installtion and Configuration ****
-@penguin:~$ npm install -g @vscode/vsce --force
-npm WARN using --force Recommended protections disabled.
+***** Installtion and Configuration ****
 
-added 106 packages in 9s
+Usage:
+"npm install -g @vscode/vsce"
 
-31 packages are looking for funding
-  run `npm fund` for details
-@penguin:~$ npm fund
-user
+Usage:
+"npm fund"
 
-@penguin:~$ npm fund
-user
+Usage:
+"npm install bundle exec jekyll serve"
 
-@penguin:~$ npm install bundle exec jekyll serve
-npm WARN deprecated exec@0.2.1: deprecated in favor of builtin child_process.execFile
+Usage:
+"npm fund"
 
-added 92 packages in 10s
+## NPM Command Line Configuration ##
 
-24 packages are looking for funding
-  run `npm fund` for details
-@penguin:~$ npm fund
-user
-├── https://github.com/sponsors/epoberezkin
-│   └── ajv@8.11.0
-├─┬ https://github.com/sponsors/sindresorhus
-│ │ └── boxen@7.0.0, camelcase@7.0.1, cli-boxes@3.0.0, string-width@5.1.2, type-fest@2.19.0, widest-line@4.0.1, clipboardy@3.0.0, get-stream@6.0.1, is-stream@2.0.1, onetime@5.1.2, is-docker@2.2.1, is-port-reachable@4.0.0
-│ └─┬ https://github.com/chalk/wrap-ansi?sponsor=1
-│   │ └── wrap-ansi@8.0.1
-│   └── https://github.com/chalk/ansi-styles?sponsor=1
-│       └── ansi-styles@6.2.1, ansi-styles@4.3.0
-├── https://github.com/chalk/chalk?sponsor=1
-│   └── chalk@5.0.1, chalk@4.1.2
-├── https://github.com/chalk/chalk-template?sponsor=1
-│   └── chalk-template@0.4.0
-└── https://github.com/sponsors/ljharb
-    └── minimist@1.2.7
-
-@penguin:~$ npm init-launch bundle exec jekyll serve
-Unknown command: "init-launch"
 
 To see a list of supported npm commands, run:
   npm help
-@penguin:~$ npm help
-npm <command>
 
-Usage:
+npm <command>
 
 npm install        install all the dependencies in your project
 npm install <foo>  add the <foo> dependency to your project
@@ -79,65 +53,7 @@ or on the command line via: npm <command> --key=value
 More configuration info: npm help config
 Configuration fields: npm help 7 config
 
-npm@9.2.0 /home/hustlepack68/.config/nvm/versions/node/v19.2.0/lib/node_modules/npm
-@penguin:~$ npm install
-
-up to date, audited 93 packages in 2s
-
-24 packages are looking for funding
-  run `npm fund` for details
-
-found 0 vulnerabilities
-@penguin:~$ npm test
-npm ERR! Missing script: "test"
-npm ERR! 
-npm ERR! To see a list of scripts, run:
-npm ERR!   npm run
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/hustlepack68/.npm/_logs/2022-12-13T21_02_45_851Z-debug-0.log
-hustlepack68@penguin:~$ npm fund
-hustlepack68
-├── https://github.com/sponsors/epoberezkin
-│   └── ajv@8.11.0
-├─┬ https://github.com/sponsors/sindresorhus
-│ │ └── boxen@7.0.0, camelcase@7.0.1, cli-boxes@3.0.0, string-width@5.1.2, type-fest@2.19.0, widest-line@4.0.1, clipboardy@3.0.0, get-stream@6.0.1, is-stream@2.0.1, onetime@5.1.2, is-docker@2.2.1, is-port-reachable@4.0.0
-│ └─┬ https://github.com/chalk/wrap-ansi?sponsor=1
-│   │ └── wrap-ansi@8.0.1
-│   └── https://github.com/chalk/ansi-styles?sponsor=1
-│       └── ansi-styles@6.2.1, ansi-styles@4.3.0
-├── https://github.com/chalk/chalk?sponsor=1
-│   └── chalk@5.0.1, chalk@4.1.2
-├── https://github.com/chalk/chalk-template?sponsor=1
-│   └── chalk-template@0.4.0
-└── https://github.com/sponsors/ljharb
-    └── minimist@1.2.7
-
-hustlepack68@penguin:~$ npm test
-npm ERR! Missing script: "test"
-npm ERR! 
-npm ERR! To see a list of scripts, run:
-npm ERR!   npm run
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/hustlepack68/.npm/_logs/2022-12-13T21_02_54_963Z-debug-0.log
-hustlepack68@penguin:~$ npm -l
-npm <command>
-
-Usage:
-
-npm install        install all the dependencies in your project
-npm install <foo>  add the <foo> dependency to your project
-npm test           run this project's tests
-npm run <foo>      run the script named <foo>
-npm <command> -h   quick help on <command>
-npm -l             display usage info for all commands
-npm help <term>    search for help on <term>
-npm help npm       more involved overview
-
-All commands:
-
-    access          Set access level on published packages
+  access          Set access level on published packages
                     
                     Usage:
                     npm access list packages [<user>|<scope>|<scope:team> [<package>]
@@ -981,31 +897,36 @@ All commands:
                     Run "npm help whoami" for more info
 
 Specify configs in the ini-formatted file:
-    /home/hustlepack68/.npmrc
+    /home/usr/.npmrc
 or on the command line via: npm <command> --key=value
 
 More configuration info: npm help config
 Configuration fields: npm help 7 config
 
 npm@9.2.0 /home/user/.config/nvm/versions/node/v19.2.0/lib/node_modules/npm
+  
 
-@penguin:~$ npm install && npm run compile
+*****_ After runnig the command "npm fund" your screen should display simlar to the next line_******
 
-up to date, audited 93 packages in 4s
+usr
+├── https://github.com/sponsors/epoberezkin
+│   └── ajv@8.11.0
+├─┬ https://github.com/sponsors/sindresorhus
+│ │ └── boxen@7.0.0, camelcase@7.0.1, cli-boxes@3.0.0, string-width@5.1.2, type-fest@2.19.0, widest-line@4.0.1, clipboardy@3.0.0, get-stream@6.0.1, is-stream@2.0.1, onetime@5.1.2, is-docker@2.2.1, is-port-reachable@4.0.0
+│ └─┬ https://github.com/chalk/wrap-ansi?sponsor=1
+│   │ └── wrap-ansi@8.0.1
+│   └── https://github.com/chalk/ansi-styles?sponsor=1
+│       └── ansi-styles@6.2.1, ansi-styles@4.3.0
+├── https://github.com/chalk/chalk?sponsor=1
+│   └── chalk@5.0.1, chalk@4.1.2
+├── https://github.com/chalk/chalk-template?sponsor=1
+│   └── chalk-template@0.4.0
+└── https://github.com/sponsors/ljharb
+    └── minimist@1.2.7
+ 
 
-24 packages are looking for funding
-  run `npm fund` for details
-
-found 0 vulnerabilities
-npm ERR! Missing script: "compile"
-npm ERR! 
-npm ERR! To see a list of scripts, run:
-npm ERR!   npm run
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/hustlepack68/.npm/_logs/2022-12-13T21_03_29_875Z-debug-0.log
-hustlepack68@penguin:~$ npm fund
-hustlepack68
+$ npm fund
+usr
 ├── https://github.com/sponsors/epoberezkin
 │   └── ajv@8.11.0
 ├─┬ https://github.com/sponsors/sindresorhus
@@ -1022,48 +943,11 @@ hustlepack68
     └── minimist@1.2.7
 
 
+Usage:
+"npm install && npm run compile"
 
-@penguin:~$ npm install && npm run compile
-
-up to date, audited 93 packages in 5s
-
-24 packages are looking for funding
-  run `npm fund` for details
-
-found 0 vulnerabilities
-npm ERR! Missing script: "compile"
-npm ERR! 
-npm ERR! To see a list of scripts, run:
-npm ERR!   npm run
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/hustlepack68/.npm/_logs/2022-12-13T21_05_55_516Z-debug-0.log
-hustlepack68@penguin:~$ npm run
-hustlepack68@penguin:~$ npm test
-npm ERR! Missing script: "test"
-npm ERR! 
-npm ERR! To see a list of scripts, run:
-npm ERR!   npm run
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/hustlepack68/.npm/_logs/2022-12-13T21_06_08_260Z-debug-0.log
-hustlepack68@penguin:~$ npm run test
-npm ERR! Missing script: "test"
-npm ERR! 
-npm ERR! To see a list of scripts, run:
-npm ERR!   npm run
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/hustlepack68/.npm/_logs/2022-12-13T21_06_13_891Z-debug-0.log
-hustlepack68@penguin:~$ npm install run test
-
-added 40 packages, and audited 133 packages in 8s
-
-58 packages are looking for funding
-  run `npm fund` for details
-
-found 0 vulnerabilities
-@penguin:~$ npm fund
+"npm fund"
+  
 user
 ├── https://github.com/sponsors/epoberezkin
 │   └── ajv@8.11.0
@@ -1080,48 +964,11 @@ user
 └── https://github.com/sponsors/ljharb
     └── minimist@1.2.7, string.prototype.replaceall@1.0.7, call-bind@1.0.2, define-properties@1.1.4, has-property-descriptors@1.0.0, es-abstract@1.20.5, es-to-primitive@1.2.1, is-date-object@1.0.5, has-tostringtag@1.0.0, is-symbol@1.0.4, function.prototype.name@1.1.5, functions-have-names@1.2.3, get-symbol-description@1.0.0, gopd@1.0.1, is-callable@1.2.7, is-negative-zero@2.0.2, is-shared-array-buffer@1.0.2, is-string@1.0.7, is-weakref@1.0.2, object-inspect@1.12.2, object.assign@4.1.4, regexp.prototype.flags@1.4.3, safe-regex-test@1.0.0, string.prototype.trimend@1.0.6, string.prototype.trimstart@1.0.6, unbox-primitive@1.0.2, has-bigints@1.0.2, which-boxed-primitive@1.0.2, is-bigint@1.0.4, is-boolean-object@1.1.2, is-number-object@1.0.7, side-channel@1.0.4, get-intrinsic@1.1.3, has-symbols@1.0.3, is-regex@1.1.4
 
-@penguin:~$ sudo apt-get update \
-    && sudo apt-get install -y --no-install-recommends \
-    libc6 \
-    libgcc1 \
-    libgssapi-krb5-2 \
-    libicu67 \
-    libssl1.1 \
-    libstdc++6 \
-    zlib1g
-E: Malformed entry 1 in list file /etc/apt/sources.list.d/nodesource.list (Component)
-E: The list of sources could not be read.
-
-@penguin:~$ npm get --update \
-    && sudo apt-get install -y --no-install-recommends \
-    libc6 \
-    libgcc1 \
-    libgssapi-krb5-2 \
-    libicu67 \
-    libssl1.1 \
-    libstdc++6 \
-    zlib1g
-; "user" config from /home/user/.npmrc
-
-//registry.npmjs.org/:_authToken = (protected) 
-
-; "cli" config from command line options
-
-location = "project" 
-update-notifier = true 
-
-; node bin location = /home/usr/.config/nvm/versions/node/v19.2.0/bin/node
-; node version = v19.2.0
-; npm local prefix = /home/user
-; npm version = 9.2.0
-; cwd = /home/user
-; HOME = /home/user
-; Run `npm config ls -l` to show all defaults.
-E: Malformed entry 1 in list file /etc/apt/sources.list.d/nodesource.list (Component)
-E: The list of sources could not be read.
-E: Malformed entry 1 in list file /etc/apt/sources.list.d/nodesource.list (Component)
-E: The list of sources could not be read.
-@penguin:~$ npm get --update     && npm get --install -y --no-install-recommends     libc6     libgcc1     libgssapi-krb5-2     libicu67     libssl1.1     libstdc++6     zlib
+  
+Usage:
+"npm get --update     && npm get --install -y --no-install-recommends     libc6     libgcc1     libgssapi-krb5-2     libicu67     libssl1.1     libstdc++6     zlib"
+  
+  
 1g
 ; "user" config from /home/user/.npmrc
 
@@ -1147,9 +994,15 @@ libssl1.1=undefined
 libstdc++6=undefined
 zlib1g=undefined
 
-@penguin:~$ npm config ls -l
+  
+*** %%%% CONFIGURATION %%%%  ***
+  
+  
+Usage:  
+"npm config ls -l"
+  
+  
 ; "default" config from default values
-
 _auth = (protected) 
 access = null 
 all = false 
@@ -1199,7 +1052,7 @@ git = "git"
 git-tag-version = true 
 global = false 
 global-style = false 
-globalconfig = "/home/hustlepack68/.config/nvm/versions/node/v19.2.0/etc/npmrc" 
+globalconfig = "/home/usr/.config/nvm/versions/node/v19.2.0/etc/npmrc" 
 heading = "npm" 
 https-proxy = null 
 if-present = false 
@@ -1211,13 +1064,13 @@ init-author-email = ""
 init-author-name = "" 
 init-author-url = "" 
 init-license = "ISC" 
-init-module = "/home/hustlepack68/.npm-init.js" 
+init-module = "/home/usr/.npm-init.js" 
 init-version = "1.0.0" 
 init.author.email = "" 
 init.author.name = "" 
 init.author.url = "" 
 init.license = "ISC" 
-init.module = "/home/hustlepack68/.npm-init.js" 
+init.module = "/home/usr.npm-init.js" 
 init.version = "1.0.0" 
 install-links = true 
 install-strategy = "hoisted" 
@@ -1251,7 +1104,7 @@ package-lock-only = false
 parseable = false 
 prefer-offline = false 
 prefer-online = false 
-prefix = "/home/hustlepack68/.config/nvm/versions/node/v19.2.0" 
+prefix = "/home/usr/.config/nvm/versions/node/v19.2.0" 
 preid = "" 
 production = null 
 progress = true 
@@ -1289,7 +1142,7 @@ unicode = true
 update-notifier = true 
 usage = false 
 user-agent = "npm/{npm-version} node/{node-version} {platform} {arch} workspaces/{workspaces} {ci}" 
-userconfig = "/home/hustlepack68/.npmrc" 
+userconfig = "/home/usr/.npmrc" 
 version = false 
 versions = false 
 viewer = "man" 
@@ -1308,9 +1161,13 @@ yes = null
 location = "project" 
 long = true
 
-@penguin:~$ git clone https://sourceware.org/git/glibc.git
+
+Usage:
+"git clone https://sourceware.org/git/glibc.git
 cd glibc
-git checkout release/2.36/master
+git checkout release/2.36/master"
+
+  
 Cloning into 'glibc'...
 remote: Enumerating objects: 16836, done.
 remote: Counting objects: 100% (16836/16836), done.
@@ -1323,11 +1180,18 @@ Updating files: 100% (1236/1236), done.
 Branch 'release/2.36/master' set up to track remote branch 'release/2.36/master' from 'origin'.
 Switched to a new branch 'release/2.36/master'
 
+  
+  ### Now your usr bin should like this ###
+         **** @penguin:~/glibc$ ****
+  
+  
+Usage:
+"npm config fix cd $HOME/src
+npm config fix -l cd $HOME/src
+git clone git://sourceware.org/git/glibc.git"
 
-@penguin:~/glibc$ npm config fix cd $HOME/src
-@penguin:~/glibc$ npm config fix -l cd $HOME/src
-@penguin:~/glibc$ git clone git://sourceware.org/git/glibc.git
-Cloning into 'glibc'...
+  
+  Cloning into 'glibc'...
 remote: Enumerating objects: 16836, done.
 remote: Counting objects: 100% (16836/16836), done.
 remote: Compressing objects: 100% (5487/5487), done.
@@ -1336,26 +1200,15 @@ Receiving objects: 100% (681735/681735), 212.55 MiB | 2.75 MiB/s, done.
 Resolving deltas: 100% (582727/582727), done.
 Updating files: 100% (19376/19376), done.
 
+  
+Usage:
+"npm install"
 
-@penguin:~/glibc$ git clone git://sourceware.org/git/glibc.git
+  
+Usage:
+"npm fund"
 
-@penguin:~/glibc$ npm install
-
-up to date, audited 133 packages in 9s
-
-58 packages are looking for funding
-  run `npm fund` for details
-
-found 0 vulnerabilities
-hustlepack68@penguin:~/glibc$ npm fnd
-Unknown command: "fnd"
-
-Did you mean this?
-    npm fund # Retrieve funding information
-
-To see a list of supported npm commands, run:
-  npm help
-@penguin:~/glibc$ npm fund
+  
 user
 ├── https://github.com/sponsors/epoberezkin
 │   └── ajv@8.11.0
@@ -1372,8 +1225,11 @@ user
 └── https://github.com/sponsors/ljharb
     └── minimist@1.2.7, string.prototype.replaceall@1.0.7, call-bind@1.0.2, define-properties@1.1.4, has-property-descriptors@1.0.0, es-abstract@1.20.5, es-to-primitive@1.2.1, is-date-object@1.0.5, has-tostringtag@1.0.0, is-symbol@1.0.4, function.prototype.name@1.1.5, functions-have-names@1.2.3, get-symbol-description@1.0.0, gopd@1.0.1, is-callable@1.2.7, is-negative-zero@2.0.2, is-shared-array-buffer@1.0.2, is-string@1.0.7, is-weakref@1.0.2, object-inspect@1.12.2, object.assign@4.1.4, regexp.prototype.flags@1.4.3, safe-regex-test@1.0.0, string.prototype.trimend@1.0.6, string.prototype.trimstart@1.0.6, unbox-primitive@1.0.2, has-bigints@1.0.2, which-boxed-primitive@1.0.2, is-bigint@1.0.4, is-boolean-object@1.1.2, is-number-object@1.0.7, side-channel@1.0.4, get-intrinsic@1.1.3, has-symbols@1.0.3, is-regex@1.1.4
 
-
-@penguin:~/glibc$ npm install git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+  
+Usage:
+ "npm install git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git"
+  
+  
 (⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂) ⠸ idealTree: sill logfile done cleaning log files
 cd linux⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂) ⠸ idealTree: sill logfile done cleaning log files
 (⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂) ⠸ idealTree: sill logfile done cleaning log files
@@ -1389,9 +1245,11 @@ $ make check
 (⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂) ⠸ idealTree: sill logfile done cleaning log files
 GLIBC=<path to the GLIBC build directory>gfile done cleaning log files
 
-@penguin:~/glibc$ npm run test GLIBC=<path to the GLIBC build directory>
-@penguin:~/glibc$ 
-@penguin:~/glibc$ GCONV_PATH=${GLIBC}/iconvdata LC_ALL=C     \
+  
+Usage:
+  "npm run test GLIBC=<path to the GLIBC build directory> GCONV_PATH=${GLIBC}/iconvdata LC_ALL=C     \"
+
+  
 > ${GLIBC}/elf/ld.so.1 --library-path \
 > ${GLIBC}:\
 > ${GLIBC}/math:\
@@ -1405,9 +1263,12 @@ GLIBC=<path to the GLIBC build directory>gfile done cleaning log files
 > ${GLIBC}/nptl:\
 > ${GLIBC}/dfp \
 > <executable to test> <arguments>
--bash: syntax error near unexpected token `<'
 
-user@penguin:~/glibc$ npm fund
+
+Usage:
+  "npm fund"
+  
+  
 user
 ├── https://github.com/sponsors/epoberezkin
 │   └── ajv@8.11.0
@@ -1424,16 +1285,19 @@ user
 └── https://github.com/sponsors/ljharb
     └── minimist@1.2.7, string.prototype.replaceall@1.0.7, call-bind@1.0.2, define-properties@1.1.4, has-property-descriptors@1.0.0, es-abstract@1.20.5, es-to-primitive@1.2.1, is-date-object@1.0.5, has-tostringtag@1.0.0, is-symbol@1.0.4, function.prototype.name@1.1.5, functions-have-names@1.2.3, get-symbol-description@1.0.0, gopd@1.0.1, is-callable@1.2.7, is-negative-zero@2.0.2, is-shared-array-buffer@1.0.2, is-string@1.0.7, is-weakref@1.0.2, object-inspect@1.12.2, object.assign@4.1.4, regexp.prototype.flags@1.4.3, safe-regex-test@1.0.0, string.prototype.trimend@1.0.6, string.prototype.trimstart@1.0.6, unbox-primitive@1.0.2, has-bigints@1.0.2, which-boxed-primitive@1.0.2, is-bigint@1.0.4, is-boolean-object@1.1.2, is-number-object@1.0.7, side-channel@1.0.4, get-intrinsic@1.1.3, has-symbols@1.0.3, is-regex@1.1.4
 
-@penguin:~/glibc$ npm audit
-found 0 vulnerabilities
-@penguin:~/glibc$ 
-@penguin:~/glibc$ npm list --json
 
+Usage:
+  "npm audit"
+  
+Usage:
+ "npm list --json"
+
+  
 .JSON
 ======================================================================================
 @penguin:~/glibc$ npm list --json
 {
-  "name": "hustlepack68",
+  "name": "usr",
   "dependencies": {
     "bundle": {
       "version": "2.1.0",
